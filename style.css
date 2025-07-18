@@ -1,0 +1,718 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Ерік */
+
+/* Олег */
+
+
+
+/* Юра  */
+@import 'animate.css';
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+.about_fundraising {
+    background-color: #010632;
+    padding: 160px 0;
+}
+.about_fundraising__text:hover {
+    color: #CCDA15;
+}
+.title__h2 {
+    color: #FFF;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.about_fundraising__text {
+    width: 414px;
+    height: 233px;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+}
+.first_picture {
+    position: relative;
+    top: 32px;
+    box-shadow: 150px 25px 125px 100px blue;
+    transition: transform, 10s, ease-in-out;
+}
+.first_picture:hover {
+    transform: scale(1.35);
+}
+.second_picture {
+    position: relative;
+    top: 130px;
+    left: 37%;
+    transition: transform, 10s, ease-in-out;
+}
+.second_picture:hover {
+    transform: scale(1.35);
+}
+@media screen and (max-width: 1047px) {
+    .about_fundraising__text {
+        width: 530px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .about_fundraising {
+        flex-direction: column;
+        align-items: center;
+    }
+    .first_picture {
+        right: 100%;
+        top: -30px;
+        box-shadow: 150px 25px 90px 100px blue;
+    }
+    .second_picture {
+        left: 40%;
+        top: 0px;
+    }
+    .title__h2 {
+        font-size: 42px;
+    }
+    .about_fundraising__text {
+        font-size: 22px;
+    }
+}                                                              
+@media screen and (max-width: 537px) {
+    .about_fundraising {
+        padding: 60px 0;
+    }
+    .about_fundraising__text {
+        width: 195px;
+        font-size: 16px;
+    }
+    .about_fundraising__text__span {
+        display: none;
+    }
+    .title__h2 {
+        font-size: 34px;
+    }
+    .first_picture {
+        top: -36px;
+        box-shadow: 90px 55px 70px 60px blue;
+        right: 50%;
+    }
+    .second_picture {
+        top: -9px;
+    }
+}
+
+
+
+/* Олег */
+
+
+/* Настя  */
+
+
+
+/* Даня Щербаков */
+.supportforarmy{
+    background: #060D49;
+    padding-bottom: 65px;
+    background-size: cover;
+}
+.supportcards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.supportchild{
+    background-color: #FFF;
+    width: 365px;  
+    text-align: center;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+}
+
+.support2{
+
+    color: #FFF;
+    font-family: Istok Web;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 65px;
+}
+.img{
+    padding-top: 26px;
+}
+.supportchild button{
+    text-align: center;
+}
+.text{
+    color: #000;
+    font-family: Istok Web;
+    font-size: 48px;
+    font-style: normal;
+    line-height: normal;
+}
+.text-1{
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.percent{
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.supportbutton{
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background: #0057FF;
+    width: 235px;
+    height: 61px;
+    flex-shrink: 0;
+    margin-left: 65px;
+}
+
+
+/* Едвард  */
+.adaptive{
+    display: block;
+    width: 1200px;
+} 
+
+.model{
+    top: 77%;
+    left: 23%;
+    display: none;
+    position: absolute;
+    width: 1005px;
+    height: 598px;
+    border-radius: 21px;
+    background-color: rgb(184, 184, 184);
+}
+.gasoline{
+    animation-duration: 1s;
+    animation-name: pinput;
+}
+
+@keyframes pinput{
+  0%{
+    transform: scale(-0.5, 1);
+  }
+}
+
+.model p{
+    margin-left: 53px;
+    margin-top: 29px;
+    color: #7C7C7C;
+    font-family: Istok Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.model p{
+    animation-name: pmove;
+    animation-duration: 2s;
+}
+
+@keyframes pmove{
+    0%{
+        margin-top: 100%;
+
+    }
+    100%{
+        margin-top: 0%;
+    }
+}
+
+.model input{
+    margin-left: 43px;
+    width: 519px;
+    height: 57px;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(0deg, #E2E2E2 0%, #E2E2E2 100%), linear-gradient(0deg, #8A8A8A 0%, #8A8A8A 100%), #8A8A8A;
+}
+
+.model_pin{
+    display: none;
+}
+
+.support{
+    margin: 64px 0 0 43px;
+    width: 235px;
+    height: 61px;
+    border-radius: 15px;
+    background: #0057FF;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    border: none;
+}
+
+.support:hover{
+    animation: move 2s infinite linear;
+    animation-name: scalean;
+}
+
+@keyframes scalean{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1.4);
+    }
+    75%{
+        box-shadow: 0px 0px 45px blue;
+    }
+}
+
+
+.gasoline{
+    margin: 38px 0 0 55px;
+}
+
+.dagger{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    width: 41px;
+    height: 42px;
+    right: 18px;
+    top: 6px;
+}
+
+.dagger::after{
+    content: "";
+    top: 20px;
+    left: 10px;
+    cursor: pointer;
+    position: absolute;
+    width: 41px;
+    height: 4px;
+    background-color: black;
+    transform: rotate(45deg);
+} 
+
+.dagger::before{
+    content: "";
+    top: 20px;
+    left: 10px;
+    cursor: pointer;
+    position: absolute;
+    width: 41px;
+    height: 4px;
+    background-color: black;
+    transform: rotate(-45deg);
+}  
+
+@media screen and (max-width: 1342px) {
+    .model {
+        left: 8%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .adaptive{
+        max-width: 990px;
+        height: 615px; 
+    }
+    .support{
+        margin-top: 3%;
+    }
+    .model_pin{
+        display: block;
+        max-width: 208px;
+        padding-bottom: 28px;
+    }
+    .model {
+        left: 2%;
+    }
+}
+@media screen and (max-width: 991px){
+    .adaptive{
+        position: absolute;
+        left: 8%;
+        top: 118%;
+        max-width: 620px;
+        height: 800px;
+        flex-direction: column;
+    }
+    
+    .gasoline{
+        max-width: 105px;
+        max-height: 126px;
+        border-radius: 9px;
+        position: absolute;
+        top: 77%;
+    }
+    .support{
+        max-width: 172px;
+        max-height: 48px;  
+        border-radius: 15px; 
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width: 776px){
+    .adaptive{
+        max-width: 570px;
+    }
+    .support{
+        max-width: 172px;
+        max-height: 48px;  
+        border-radius: 15px; 
+        margin-top: 34%;
+        margin-left: 30%;
+    }
+
+    .model_left input{
+        max-width: 306px;
+    }
+}
+@media screen and (max-width: 575px){
+    .adaptive{
+        max-width: 370px;
+        height: auto;
+    }
+    .gasoline{
+        top: 67%;
+    }
+    .support{
+        max-width: 172px;
+        max-height: 48px;  
+        border-radius: 15px; 
+        margin-top: 34%;
+        margin-bottom: 3%;
+        margin-left: 45%;
+    }
+}
+
+
+/* Назар */
+.container_modal {
+    display: none;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 1px solid black;
+    background: #FFF;
+}
+.container {
+    top: 77%;
+    left: 23%;
+    position: absolute;
+    width: 1005px;
+}
+.active{
+    display: flex;
+}
+.container_cross {
+    content: "";
+    position: absolute;
+    top: 1%;
+    width: 2px;
+    height: 22px;
+    background-color: black;
+    transform: rotate(45deg);
+    right: 3%;
+}
+
+.container_cross::after {
+    content: "";
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    width: 2px;
+    height: 22px;
+    background-color: black;
+    transform: translate(0px, 1px) rotate(93deg);
+}
+
+form {
+    display: grid;
+}
+
+label {
+    display: grid;
+    color: #7C7C7C;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+input {
+    width: 519px;
+    height: 57px;
+    border-radius: 15px;
+    background: linear-gradient(0deg, #E2E2E2 0%, #E2E2E2 100%), linear-gradient(0deg, #8A8A8A 0%, #8A8A8A 100%), #8A8A8A;
+}
+
+.container_img {
+   margin: 40px;
+}
+
+.container_img:hover img {
+    transform: scale(1);
+}
+
+.support-button { 
+    padding: 22px;
+}
+
+.join-button {
+    width: 235px;
+    height: 61px;
+    border-radius: 15px;
+    background: #0057FF;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.join-button:hover {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: rubberBand;
+    animation-duration: 2s;
+}
+
+.container-info {
+    padding: 10px 0 0 50px;
+}
+
+.container_img:hover {
+    transform: scale(1.05);
+}
+
+.forms:hover {
+    display: inline-block;
+    animation: shakeX;
+    animation-duration: 2s;
+}
+
+.forms :nth-child(4) {
+    display: none;
+}
+
+@media screen and (max-width: 1342px) {
+    .container {
+        left: 10%;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .container {
+        left: 5%;
+        max-width: 80%;
+    }
+    .container_modal {
+        flex-direction: column;
+    }
+    
+    .forms :nth-child(4) {
+        display: block;
+        max-width: 208px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        left: 2%;
+    }
+
+    .join-button {
+        max-width: 172px;
+        max-height: 48px;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 570px;
+    }
+    .adaptive{
+        max-width: 570px;
+    }
+
+    input {
+        max-width: 306px;
+    }
+
+    .container_modal {
+        margin: 0 auto;
+        border-radius: 15px;
+        border: 1px solid black;
+        background: #FFF;
+    }
+    .container_cross {
+        top: 2%;
+        right: 7%;
+    }
+    .support {
+        padding: 0;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .adaptive {
+        max-width: 356px;
+        height: auto;
+        left: 0;
+    }
+    .container {
+        max-width: 390px;
+        left: 10%;
+    }
+    .supportchild {
+        margin-right: 0;
+    }
+}
+
+
+
+/* Ваня  */
+footer {
+    background: #010632;
+    
+}
+
+.policy {
+    color: #FFF;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Istok Web';
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.policy {
+    padding-top: 70px;
+    padding-left: 138px;
+}
+
+.text_policy,
+.text2_policy,
+.text3_policy {
+    color: #FFF;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+}
+
+ .text2_policy,
+ .text3_policy {
+    padding-top: 10px;
+ }
+
+.socialnetwork {
+    display: flex;
+    align-items: center;
+    
+}
+
+.instagram_socialnetwork,
+.facebook_socialnetwork,
+.twitter_socialnetwork
+ {
+    background-repeat: no-repeat;
+}
+
+.trips {
+    color: #FFF;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.trips p {
+    margin-top: 40px;
+}
+.blue {
+    color: #0075FF;
+    font-family: Istok Web;
+    font-weight: 700;
+}
+
+.yellow {
+    color: #FFB800;
+    font-family: Istok Web;
+    font-weight: 700;
+}
+.yellow-circle {
+    background-color: #FFB800;
+    width: 65px;
+    margin-right: 34.96px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Стилі для середніх екранів (дисплей максимум 991рх) */
+@media (max-width: 991px) { 
+    .trips {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .socialnetwork {
+        margin-top: 40px;
+    }
+}
+
+
+/* Стилі для дуже малих екранів (дисплей максимум 575рх) */
+@media screen and (max-width: 575px) {
+    .policy {
+        padding-left: 59px;
+    }
+    .h2 {
+        font-size: 36px;
+    }
+ }
